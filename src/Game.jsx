@@ -131,7 +131,7 @@ function Game() {
     };
 
     return (
-        <div className="flex flex-col items-center mt-10">
+        <div className="flex flex-col items-center mt-10 overflow-x-auto">
             <h1 className="text-5xl font-bold mb-4">Brainvita</h1>
             {gameStatus === "win" && (
                 <div className="mb-4 text-green-600 text-xl font-bold">
